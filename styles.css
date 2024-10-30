@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Tajawal", sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #F4F6FF;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    padding: 20px 0;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #EB8317;
+}
+
+.detal {
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+.detal h1 {
+    font-size: 50px;
+    color: #10375C;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #EB8317;
+}
+
+.detal p {
+    color: #10375C;
+    font-weight: 500;
+}
+
+.detal a {
+    background-color: #EB8317;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+.detal a:hover {
+    background-color: #10375C;
+    
+}
+
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 50%;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    transform: translatex(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .montn {
+    bottom: 40px;
+}
+
+.images:hover .moon {
+    bottom: 45%;
+}
+
+.middle-container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.profile .photo {
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.middle-container h1 {
+    margin-bottom: 10px;
+    color: #EB8317;
+    font-size: 50px;
+}
+
+.profile p {
+    color: #10375C;
+    font-weight: bold;
+}
+
+hr {
+    border: dotted #EB8317 6px;
+    width: 4%;
+    margin: 100px auto;
+    
+}
+
+.parent {
+    
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    
+    row-gap: 2rem;
+}
+
+
+.coding h3 {
+    color: #EB8317;
+    margin: 0 0 10px 10px;
+}
+
+.coding p {
+    color: #10375C;
+    margin: 0 0 10px 10px;
+}
+
+.gym-love h3 {
+    color: #EB8317;
+    margin: 0 0 10px 10px;
+}
+
+.gym-love p {
+    color: #10375C;
+    margin: 0 0 10px 10px;
+    
+}
+
+.connect-me p {
+    color: #10375C;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.connect-me a {
+    background-color: #EB8317;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+.bottom-container {
+    background-color: #EB8317;
+    padding: 50px 0 20px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.bottom-container a {
+    margin: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.bottom-container a:hover {
+    color: #10375C;
+}
+
+
+.bottom-container p {
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+
+
+
